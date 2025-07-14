@@ -509,7 +509,7 @@ def main():
     # Process each split
     for input_file in input_files:
         if not Path(input_file).exists():
-            print(f"⚠️  File not found: {input_file}, skipping...")
+            print(f"File not found: {input_file}, skipping...")
             continue
         
         split_name = Path(input_file).stem
