@@ -161,7 +161,7 @@ def test_training():
 
 def test_generation(model, tokenizer, device):
     """Test model generation with proper device handling"""
-    print("\n🔍 Testing model generation...")
+    print("\nTesting model generation...")
     
     model.eval()
     
