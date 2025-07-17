@@ -6,7 +6,7 @@ def setup_model_and_tokenizer():
     """
     Load and configure GPT-2 124M model for code-to-explanation fine-tuning
     """
-    print("🔧 Setting up GPT-2 124M model...")
+    print("Setting up GPT-2 124M model...")
     
     # Load pre-trained GPT-2 124M model and tokenizer
     model_name = 'gpt2'  # This is the 124M parameter version
